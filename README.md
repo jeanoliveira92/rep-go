@@ -10,6 +10,16 @@ O Rep Go é um site de localiização de repúblicas. Para cada república é mo
 * Javascript
 * Api Google Maps
 
+## Requisito Inicial
+
+`./index.php`
+
+```javascript
+231 <script src="https://maps.googleapis.com/maps/api/js?key=MEYKEY&callback=init" async defer></script>
+```
+Na linha 231, onde está escrito MYKEY na URL, deve ser preenchida com uma key gerada para a api do google maps [https://console.developers.google.com/apis/dashboard](https://console.developers.google.com/apis/dashboard)
+   
+
 ## Interface
 
 ### Tela Principal
